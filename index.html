@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+
+  <body>
+    <div class="settings">
+      <h1>Etch-a-Sketch</h1>
+      <label for="grid-size"> Select grid size: </label>
+      <input type="range" name="grid-size" id="grid-size" min="16" max="100" />
+      <p>Size: <span id="size"></span></p>
+      <button class="create-grid">Create</button>
+      <button class="erase">Erase</button>
+      <button class="clear-grid">Clear</button>
+    </div>
+
+    <div class="container"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

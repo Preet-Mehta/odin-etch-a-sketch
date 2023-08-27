@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  gap: 10rem;
+}
+
+.container {
+  height: 900px;
+  width: 960px;
+  border: 1px solid black;
+}
+
+#grid-row {
+  display: flex;
+}
